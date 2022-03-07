@@ -1,0 +1,5 @@
+PKG ntopng redis
+SYSRC redis_enable=YES
+SYSRC ntopng_enable=YES
+SERVICE redis start
+SERVICE ntopng start
