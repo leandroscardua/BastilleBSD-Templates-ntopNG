@@ -1,4 +1,4 @@
-PKG ntopng redis
+PKG ca_root_nss ntopng redis
 SYSRC redis_enable=YES
 SYSRC ntopng_enable=YES
 SERVICE redis start
