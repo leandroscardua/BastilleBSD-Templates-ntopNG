@@ -3,3 +3,4 @@ SYSRC redis_enable=YES
 SYSRC ntopng_enable=YES
 SERVICE redis start
 SERVICE ntopng start
+RDR tcp 3000
